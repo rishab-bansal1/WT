@@ -1,0 +1,212 @@
+* {
+    font-family: sans-serif , Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    margin-left: 40px;
+    height: 50px;
+    width: 120px;
+    float: left;
+}
+.banner,
+img {
+    width: 100%;
+    position: relative;
+}
+
+.bannerheading {
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 30%;
+    left: 5%;
+}
+
+.bannertext{
+    color: white;
+    position: absolute;
+    top: 57%;
+    width: 40%;
+    left: 5%;
+}
+
+.enrollbtn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 66%;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 11px;
+    left: 5%;
+    cursor: pointer;
+}
+
+.cardheading {
+    width: 50%;
+    color: rgb(15, 214, 214);
+    text-align: center;
+    margin: auto;
+}
+.carddiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+.card {
+    width: 250px;
+    height: 300px;
+    align-items: center;
+}
+.card>img {
+    width: 230px;
+}
+
+
+.pivot{
+    width: 90%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.pivot>a {
+    border: none;
+    text-decoration: none;
+    color: gray;
+    margin-left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pivot>a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.pivotheading {
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(15, 214, 214);
+}
+.pivotbox1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+.pivotimg1 {
+    margin-top: 90px;
+}
+
+
+#boardicon {
+    height: 90px;
+    width: 80px;
+}
+
+.pivotbox1>.pivotimg1>ul>li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+
+.pivotbox2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+.pivotbox2>.pivotimg2 {
+    width: 550px;
+    height: 350px;
+}
+
+.pivotimg3 {
+    margin-top: 80px;
+}
+
+#studenticon {
+    height: 90px;
+    width: 80px;
+}
+
+.pivotbox2>.pivotimg3>ul>li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 380px;
+}
+
+
+.pivotimg2>img {
+    width: 550px;
+    height: 350px;
+}
+
+.institutesection {
+    border-top: 1px solid rgb(179, 178, 178);
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    margin-top: 80px;
+    height: 400px;
+}
+#instituteheading {
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(15, 214, 214);
+}
+.institutediv>img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.institutediv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: rgb(80, 80, 80);
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer>p {
+    width: 40%;
+    font-size: 11px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
